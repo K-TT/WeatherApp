@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.app {
+    background-position: url(./assets/
+);
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 case-out;
+}
