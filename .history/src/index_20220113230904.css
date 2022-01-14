@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.app {
+    background-image: url(./assets/snowy_mountains.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 case-out;
+}
+
+.app.warm {
+    background-image: url(./assets/summer_mountains.jpg);
+}
+
+main {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75))
+}
+
+.search-box {
+    width: 100px;
+    margin: 100%;
+}
